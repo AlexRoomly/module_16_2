@@ -1,8 +1,6 @@
 from fastapi import FastAPI, Path
 from typing import Annotated
 
-from fastapi import FastAPI
-
 app=FastAPI()
 
 @app.get('/')
